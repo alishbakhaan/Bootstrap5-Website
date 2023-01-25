@@ -1,0 +1,114 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Sofia Sans', sans-serif;
+}
+
+header
+{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/bg-img.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.main-header
+{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img{
+    width: 200px;
+    
+    padding-left: 60px;
+}
+.main-header nav
+{
+    width: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.main-header nav a
+{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+}
+.menubtn
+{
+    margin-right: 60px;
+}
+.menubtn button
+{
+    padding: 10px 45px;
+    border: none;
+    text-align: center;
+    font-size: 15px;
+    color: #fff;
+    background-image: linear-gradient(to right,#649bff,#0070fa,#649bff);
+    border-radius: 10px;
+
+}
+
+main
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main .sec-right
+{
+    padding-right: 70px;
+}
+main .sec-left
+{
+    padding-left: 100px;
+    
+}
+
+.sec-left h2
+{
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: lighter;
+    color: #242424;
+    margin-top: 100px;
+}
+
+.sec-left h1
+{
+    font-size: 55px;
+    text-transform: capitalize;
+    font-weight: 700;
+    margin: 15px 0px;
+}
+
+.sec-left p
+{
+    margin-bottom: 20px;
+}
+
+.sec-left button
+{
+    padding: 15px 45px;
+    border: none;
+    text-align: center;
+    font-size: 15px;
+    color: #fff;
+    background-image: linear-gradient(to right,#649bff,#0070fa,#649bff);
+    border-radius: 10px;
+
+}
